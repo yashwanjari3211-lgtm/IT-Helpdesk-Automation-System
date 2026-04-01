@@ -1,0 +1,5 @@
+{
+  "name": "Enterprise IT Helpdesk Automation",
+  "description": "An automated IT incident management system with issue classification, ticket tracking, and email notifications.",
+  "requestFramePermissions": []
+}
