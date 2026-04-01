@@ -1,0 +1,12 @@
+express
+better-sqlite3
+nodemailer
+zod
+swagger-ui-express
+swagger-jsdoc
+cors
+uuid
+tsx
+typescript
+vite
+@google/genai

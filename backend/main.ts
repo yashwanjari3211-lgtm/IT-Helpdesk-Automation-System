@@ -4,7 +4,7 @@ import path from 'path';
 import cors from 'cors';
 import swaggerUi from 'swagger-ui-express';
 import swaggerJsdoc from 'swagger-jsdoc';
-import routes from './api/routes';
+import routes from '../api/routes';
 
 async function startServer() {
   const app = express();
@@ -28,7 +28,7 @@ async function startServer() {
         },
       ],
     },
-    apis: ['./api/routes.ts'],
+    apis: [path.join(__dirname, '../api/routes.ts')],
   };
 
   const swaggerDocs = swaggerJsdoc(swaggerOptions);
